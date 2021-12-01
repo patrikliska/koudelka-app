@@ -7,9 +7,15 @@ function App() {
   return (
     <div className='App'>
       <body className='App-header'>
+        <div class="column">
         <Users />
+        </div>
+        <div class="column">
         <Moderators />
+        </div>
+        <div class="column">
         <Owners />
+        </div>
       </body>
     </div>
   );
